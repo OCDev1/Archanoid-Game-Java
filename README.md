@@ -9,6 +9,10 @@ This is a classic Arkanoid-style game built in Java. The game includes multiple 
 - **End Screens**: If you clear all levels, you'll see a "You Win" screen with your final score. If you lose, a "Game Over" screen will be shown.
 - **Pause Functionality**: You can pause the game at any time by pressing the `p` key.
 
+## Gameplay
+![Alt text](Screenshot_11.jpg)
+
+
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher

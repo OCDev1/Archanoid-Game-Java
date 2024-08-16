@@ -10,7 +10,14 @@ This is a classic Arkanoid-style game built in Java. The game includes multiple 
 - **Pause Functionality**: You can pause the game at any time by pressing the `p` key.
 
 ## Gameplay
+### First level
 ![Alt text](Screenshot_11.jpg)
+### Second level
+![Alt text](Screenshot_12.jpg)
+### Third level
+![Alt text](Screenshot_13.jpg)
+### You Win screen
+![Alt text](Screenshot_14.jpg)
 
 
 ## Requirements

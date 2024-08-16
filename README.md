@@ -21,3 +21,36 @@ To start the game with the default three levels, simply run the following comman
 
 ```bash
 java -jar ArkanoidGame.jar
+
+## Running the Game with Specific Levels
+You can also specify which levels to play by providing the level numbers as arguments. For example:
+
+```bash
+java -jar ArkanoidGame.jar 1 3 2
+This command will run the game with levels 1, 3, and 2 in that order. The game will ignore any arguments that are not valid level numbers.
+
+### Example Commands
+Run the game with level 3 only:
+
+```bash
+java -jar ArkanoidGame.jar 3
+Run the game with levels 1, 3, 2, and 1:
+
+```bash
+java -jar ArkanoidGame.jar 1 3 2 1
+Run the game and ignore invalid levels:
+
+```bash
+java -jar ArkanoidGame.jar 1 3 invalid 2
+
+## Game Controls
+* Left Arrow Key: Move the paddle to the left.
+* Right Arrow Key: Move the paddle to the right.
+* Space Key: Start the level or continue after a pause.
+* P Key: Pause the game.
+* Q Key: Quit the game.
+
+## Code Structure
+* Ass6Game: The main class that runs the game. Handles command line arguments and initializes levels.
+* GameLevel: Handles the setup and running of individual levels.
+* KeyPressStoppableAnimation: A decorator class that handles key press events to stop animations like pause, game over, and win screens.

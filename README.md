@@ -19,29 +19,24 @@ This is a classic Arkanoid-style game built in Java. The game includes multiple 
 
 To start the game with the default three levels, simply run the following command:
 
-```bash
-java -jar ArkanoidGame.jar
+`java -jar ArkanoidGame.jar`
 
 ## Running the Game with Specific Levels
 You can also specify which levels to play by providing the level numbers as arguments. For example:
 
-```bash
-java -jar ArkanoidGame.jar 1 3 2
+`
+java -jar ArkanoidGame.jar 1 3 2`
 This command will run the game with levels 1, 3, and 2 in that order. The game will ignore any arguments that are not valid level numbers.
 
 ### Example Commands
 Run the game with level 3 only:
 
-```bash
-java -jar ArkanoidGame.jar 3
-Run the game with levels 1, 3, 2, and 1:
+`
+java -jar ArkanoidGame.jar 3`
+Run the game with levels 1, 2, 3:
 
-```bash
-java -jar ArkanoidGame.jar 1 3 2 1
-Run the game and ignore invalid levels:
-
-```bash
-java -jar ArkanoidGame.jar 1 3 invalid 2
+`
+java -jar ArkanoidGame.jar 1 2 3`
 
 ## Game Controls
 * Left Arrow Key: Move the paddle to the left.
